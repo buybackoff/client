@@ -187,6 +187,7 @@ module.exports = angular.module('h', [
   .service('tags', require('./tags'))
   .service('unicode', require('./unicode'))
   .service('viewFilter', require('./view-filter'))
+  .service('analytics', require('./analytics'))
 
   .factory('store', require('./store'))
 
